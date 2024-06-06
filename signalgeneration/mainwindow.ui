@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSINEWAVE">
+    <property name="title">
+     <string>MENU</string>
+    </property>
+    <addaction name="actionSINEWAVE"/>
+    <addaction name="actionSTEPAUTO"/>
+    <addaction name="actionSTEPMANUAL"/>
+    <addaction name="actionRAMP"/>
+    <addaction name="actionTRIANGLE"/>
+    <addaction name="actionSAWTOOTH"/>
+    <addaction name="actionSQUARE"/>
+    <addaction name="actionSTALLFORCETEST"/>
+    <addaction name="actionpSTEPAUTO"/>
+    <addaction name="actionnSTEPAUTO"/>
+    <addaction name="actionstart"/>
+    <addaction name="actionstop"/>
+   </widget>
+   <addaction name="menuSINEWAVE"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSINEWAVE">
+   <property name="text">
+    <string>SINEWAVE</string>
+   </property>
+  </action>
+  <action name="actionstart">
+   <property name="text">
+    <string>start</string>
+   </property>
+  </action>
+  <action name="actionstop">
+   <property name="text">
+    <string>stop</string>
+   </property>
+  </action>
+  <action name="actionSTEPAUTO">
+   <property name="text">
+    <string>STEPAUTO</string>
+   </property>
+  </action>
+  <action name="actionSTEPMANUAL">
+   <property name="text">
+    <string>STEPMANUAL</string>
+   </property>
+  </action>
+  <action name="actionRAMP">
+   <property name="text">
+    <string>RAMP</string>
+   </property>
+  </action>
+  <action name="actionTRIANGLE">
+   <property name="text">
+    <string>TRIANGLE</string>
+   </property>
+  </action>
+  <action name="actionSAWTOOTH">
+   <property name="text">
+    <string>SAWTOOTH</string>
+   </property>
+  </action>
+  <action name="actionSQUARE">
+   <property name="text">
+    <string>SQUARE</string>
+   </property>
+  </action>
+  <action name="actionSTALLFORCETEST">
+   <property name="text">
+    <string>STALLFORCETEST</string>
+   </property>
+  </action>
+  <action name="actionpSTEPAUTO">
+   <property name="text">
+    <string>pSTEPAUTO</string>
+   </property>
+  </action>
+  <action name="actionnSTEPAUTO">
+   <property name="text">
+    <string>nSTEPAUTO</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
